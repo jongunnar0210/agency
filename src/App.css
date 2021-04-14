@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  font-family:sans-serif;
+}
+
+.nav-bar {
+  background-color: rgb(58, 161, 58);
+}
+
+.container-fluid, .container {
+  margin-bottom: 80px;
 }
 
 .welcome {
@@ -7,7 +16,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 800px;
 }
 
@@ -46,6 +55,19 @@
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.sub-header {
+  font-style: italic;
+}
+
+section {
+  margin: 40px 0;
 }
 
 .App-logo {

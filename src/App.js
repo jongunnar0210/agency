@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import { Col, Container, Row } from 'react-bootstrap';
 import './App.css';
+import Service from './Components/Service';
 
 function App() {
   return (
@@ -20,13 +21,23 @@ function App() {
       </Container>
 
       {/* Services */}
-      <div className="services">
+      <Container className="services">
         <h2>SERVICES</h2>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <span>E-Commerce</span>
-        <span>Responsive Design</span>
-        <span>Web Security</span>
-      </div>
+        <p className='sub-header'>Lorem ipsum dolor sit amet consectetur.</p>
+        <section>
+          <Row>
+            <Service name='E-Commerce'
+              text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.' />
+            <Service name='Responsive Design'
+              text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.' />
+            <Service name='Web Security'
+              text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.' />
+          </Row>
+          {/* <span>E-Commerce</span>
+          <span>Responsive Design</span>
+          <span>Web Security</span> */}
+        </section>
+      </Container>
     </div>
   );
 }
