@@ -19,23 +19,6 @@ function App() {
         </Row>
       </Container>
 
-      {/* <Container fluid>
-        <div class="row align-items-center">
-          <div class="col">
-            One of three columns
-          </div>
-        </div>
-      </Container> */}
-
-      <Container fluid className='test'>
-        <Row className="align-items-center">
-          <Col>
-            One of three columns
-          </Col>
-        </Row>
-      </Container>
-
-
       {/* Services */}
       <div className="services">
         <h2>SERVICES</h2>
