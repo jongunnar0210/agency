@@ -4,14 +4,19 @@
 
 .welcome {
   background-image: url('Images/header-bg.jpg');
-  background-position: 0 -160px;
+  /* background-position: 0 -160px; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 200px !important;
-  padding-bottom: 200px !important;
+  /* padding-top: 200px !important;
+  padding-bottom: 200px !important; */
   border: 1px solid red;
   /* min-height: 650px; */
-  /* height: 800px; */
+  height: 800px;
+}
+
+.welcome .row {
+  height: 100%;
 }
 
 .test .row {
@@ -22,6 +27,10 @@
 /* .welcome .row {
   min-height: 750px !important;
 } */
+
+.welcome h1, h3, button {
+  margin: 40px 0;
+}
 
 .welcome h1, h3 {
   color: white;
